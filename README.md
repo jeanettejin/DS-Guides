@@ -10,7 +10,7 @@ Here you will find an organized compilation of the tools that I have learned as 
     * [Getting to User](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2_getting_to_user.md)
     * [Making Github SSH Key](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2_making_github_ssh_key.md)
     * [Screen Session](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2_screen_session.md)
-    * [Copying Files with Ec2](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2_copying_files_scp.md)
+    * [Copying Files with scp](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2_copying_files_scp.md)
 - [AWSCLI](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/Compiled/awscli.md)
     * [Setup](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/awscli_setup.md)
     * [Useful Commands](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/awscli_useful_commands.md)
