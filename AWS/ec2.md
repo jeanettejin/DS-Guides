@@ -1,8 +1,8 @@
 # EC2 For Data Science
 
 This guide will show you how to do a few things.
-1. [SSH into ec2 instance](#SSH into ec2 instance)
-2. [Creating a Sudo User](#Creating a Sudo User)
+1. [SSH into ec2 instance](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#ssh-into-ec2-instance)
+2. [Creating a Sudo User](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#creating-a-sudo-user)
 3. [Making SSH Key for Github]
 4. [Running Something in Screen Session]
 
@@ -23,7 +23,7 @@ by running
     ```
 
 
-##[SSH into ec2 instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
+## [SSH into ec2 instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
 
 This is the basic format:
 
@@ -37,7 +37,7 @@ For ubuntu it tends to look something like this:
 ssh -i key.pem ubuntu@ec2-198-51-100-1.compute-1.amazonaws.com
 ```
 
-## [Creating a Sudo User]()
+## Creating a Sudo User
 
 If you are using your work instance, chances are you need to create your own sudo user.
 Think about sharing your computer with a family. You might have a user for your mom, dad
@@ -109,4 +109,5 @@ Assuming that you have already [ssh-ed into your instance](##SSH into ec2 instan
       whoami
       > jeanettejin
     ```
+
 
