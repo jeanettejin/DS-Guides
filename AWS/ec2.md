@@ -3,6 +3,7 @@
 This guide will show you how to do a few things.
 1. [SSH into ec2 instance](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#ssh-into-ec2-instance)
 2. [Creating a Sudo User](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#creating-a-sudo-user)
+3. [Getting to Your User](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#getting-to-your-user)
 3. [Making SSH Key for Github]
 4. [Running Something in Screen Session]
 
@@ -47,7 +48,7 @@ to be a sudo user because you need to execute commands as root user.
 
 Below you will see me create a sudo user for account name `jeanettejin`
 
-Assuming that you have already [ssh-ed into your instance](##SSH into ec2 instance)
+Assuming that you have already [ssh-ed into your instance](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#ssh-into-ec2-instance)
 
 1. Become root user
     ```bash 
@@ -110,4 +111,27 @@ Assuming that you have already [ssh-ed into your instance](##SSH into ec2 instan
       > jeanettejin
     ```
 
+# Getting to Your User
 
+Now that you know how to ssh into your instance and you have created a super user, going
+forward, this is what the steps look like to get to your user.
+1. [SSH into instance](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#ssh-into-ec2-instance)
+
+2. Go to your user account as sudo user
+
+   ```bash
+   sudo su jeanettejin
+   ```
+   
+   Your user output should look something like:
+   
+   ```bash
+   jeanettejin@ip-172-31-30-30:/home/ubuntu$ 
+   ```
+
+3. Execute
+   ```bash 
+    jeanettejin@ip-172-31-30-30:/home/ubuntu$ cd ~/
+    jeanettejin@ip-172-31-30-30
+   ```
+    Now you are in your user account
