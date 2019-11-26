@@ -7,7 +7,7 @@
 4. [Running Something in Screen Session](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#running-something-in-screen-session)
 
 
-## Prerequisites
+### Prerequisites
 1. Make sure you have a private key file, which I will refer to as `key.pem` and that 
 it is here: `.ssh/`. Assuming you are the top level, you can check by running the
 following in your teminal:
