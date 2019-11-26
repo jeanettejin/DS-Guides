@@ -71,7 +71,7 @@ You will need your access key id and your secret key for this section
 
 If you have version control turned on and you need to go back to a previous version of a file you can do the following:
 
-1. Get all versions for
+1. Get all version info for all object in bucket
     
     ```bash
     aws s3api list-object-versions --bucket bucket_name
