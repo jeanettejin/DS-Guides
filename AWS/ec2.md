@@ -4,8 +4,8 @@ This guide will show you how to do a few things.
 1. [SSH into ec2 instance](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#ssh-into-ec2-instance)
 2. [Creating a Sudo User](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#creating-a-sudo-user)
 3. [Getting to Your User](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#getting-to-your-user)
-3. [Making SSH Key for Github]
-4. [Running Something in Screen Session]
+3. [Making SSH Key for Github](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#making-ssh-key-in-github)
+4. [Running Something in Screen Session](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#running-something-in-screen-session)
 
 
 ### Prerequisites
@@ -123,7 +123,7 @@ forward, this is what the steps look like to get to your user.
    sudo su jeanettejin
    ```
    
-   Your user output should look something like:
+   Your prompt should look something like:
    
    ```bash
    jeanettejin@ip-172-31-30-30:/home/ubuntu$ 
@@ -135,3 +135,82 @@ forward, this is what the steps look like to get to your user.
     jeanettejin@ip-172-31-30-30
    ```
     Now you are in your user account
+    
+    
+## Making SSH Key in Github
+
+[SSH into your instance](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#ssh-into-ec2-instance)
+and become [sudo user](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#getting-to-your-user)
+
+1. Generate key
+    ```bash
+    jeanettejin@ip-172-31-30-30: ssh-keygen -t rsa -b 4096 -C "your github's email"
+    ```
+2. You will be given a series of prompts where you should just press Enter for all of them
+
+   ```bash
+    > Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press Enter]
+    > Enter passphrase (empty for no passphrase): [Press Enter]
+    > Enter same passphrase again: [Press Enter]
+   ```
+   
+3. Run the below command and copy the output to your clipboard
+
+   ```bash
+    cat .ssh/id_rsa.pub
+   ```
+   
+4. Add the SSH Key to Github Account
+    * Sign into Github and in the upper-right corner of any page, click your profile photo, then click Settings
+    * In the user settings sidebar, click SSH and GPG Keys
+    * Click New SSH key or Add SSH key 
+    * In the "Title" field, add a descriptive label for the new key. For example, 'SimpleBet AWS 1"
+    * Click "Add SSH Key" 
+    * Copy and paste the output into the box for your SSH key
+    * Hit Add SSH key
+
+5. Clone your repo
+
+   ```bash 
+   git clone https://github.com/jeanettejin/HelpfulGuides.git
+   ```
+   
+## Running Something in Screen Session
+
+[What is a screen?](https://linoxide.com/linux-command/15-examples-screen-command-linux-terminal/)
+> The screen is a terminal multiplexer. Using this, you can run any number of console-based-applications, interactive command shells, course-based applications, etc. You can use screen to keep running program after you accidentally close the terminal, or even after you log out and later resume right wherever you are.
+>
+> When screen is called, it creates a single window with a shell in it (or the specified command) and then gets out of your way so that you can use the program as you normally would. Then, at any time, you can create new (full-screen) windows with other programs in them (including more shells), kill the current window, view a list of the active windows, copy text between windows, switch between windows, etc.
+
+>
+
+
+1. Start a Screen Session
+
+   ```bash 
+   screen -S name_of_screen 
+   ```
+   Note that if you get the following error
+   ```bash
+    Cannot open your terminal '/dev/pts/0' - please check.
+   ```
+   Excute
+   ```bash
+   script /dev/null
+   ```
+
+2. Run whatever you want to run
+
+   ```bash
+   python3 -m path.to.your.script.py
+   ```
+
+3. Detach from screen and allow script to keep running with the shortcut Ctrl + A, D
+
+4. Reopen screen session with
+
+   ```bash 
+   screen -r name_of_screen
+   ```
+   
+This is an awesome resource: [screen_cheatsheet](https://gist.github.com/jctosta/af918e1618682638aa82)
