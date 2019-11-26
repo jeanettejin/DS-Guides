@@ -5,7 +5,7 @@
 3. [Getting to Your User](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#getting-to-your-user)
 3. [Making SSH Key for Github](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#making-ssh-key-in-github)
 4. [Running Something in Screen Session](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#running-something-in-screen-session)
-
+5. [Copying Files with scp](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#copying-files-with-scp)
 
 ### Prerequisites
 1. Make sure you have a private key file, which I will refer to as `key.pem` and that 
@@ -213,3 +213,18 @@ and become [sudo user](https://github.com/jeanettejin/HelpfulGuides/blob/master/
    ```
    
 This is an awesome resource: [screen_cheatsheet](https://gist.github.com/jctosta/af918e1618682638aa82)
+
+
+## Copying Files With scp
+
+* Local to Remote:
+    
+    ```bash
+  scp -i key.pem /Users/jeanettejin/local_path/obj.pkl ubuntu@ec2-3-95-59-156.compute-1.amazonaws.com:/home/jeanettejin/remote_path/
+  
+    ```
+  
+* Remote to Local:
+    ```bash
+    scp -i key.pem ubuntu@ec2-3-95-59-156.compute-1.amazonaws.com:/home/jeanettejin/remote_path/obj.pkl /Users/jeanettejin/local_path/
+    ```
