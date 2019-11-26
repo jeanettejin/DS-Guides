@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f3829e4-8daf-4130-9a8a-e1f8cd9ee922" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AWS/Compiled/ec2_getting_to_user.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWS/Compiled/ec2_making_github_ssh_key.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWS/Compiled/ec2_ssh.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/AWS/ec2_creating_sudo_user.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/ec2_getting_to_user.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/ec2_making_github_ssh_key.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/ec2_screen_session.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/ec2_ssh.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AWS/awscli.md" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/Compiled/awscli.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AWS/ec2.md" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/Compiled/ec2.md" afterDir="false" />
@@ -28,6 +29,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AWS" />
       <recent name="$PROJECT_DIR$/AWS/Compiled" />
     </key>
   </component>
@@ -53,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574776158970</updated>
-      <workItem from="1574776162146" duration="14356000" />
+      <workItem from="1574776162146" duration="14624000" />
     </task>
     <task id="LOCAL-00001" summary="first guide">
       <created>1574778021905</created>

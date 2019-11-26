@@ -1,6 +1,6 @@
 # Helpful Guides
 
-After a months as a full time data scientists these are commands that always have in a sticky.
+Here you will find an organized compilation of the tools that I have learned as a data scientist.
 
 
 # Table Of Contents
