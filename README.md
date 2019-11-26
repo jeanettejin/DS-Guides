@@ -1,6 +1,6 @@
 # Helpful Guides
 
-Here you will find an organized compilation of the tools that I have learned as a data scientist.
+Here you will find an organized compilation of how to use tools that I have learned as a data scientist.
 
 
 # Table Of Contents
