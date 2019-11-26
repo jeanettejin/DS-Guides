@@ -1,6 +1,5 @@
 # EC2 For Data Science
 
-This guide will show you how to do a few things.
 1. [SSH into ec2 instance](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#ssh-into-ec2-instance)
 2. [Creating a Sudo User](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#creating-a-sudo-user)
 3. [Getting to Your User](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#getting-to-your-user)
@@ -8,7 +7,7 @@ This guide will show you how to do a few things.
 4. [Running Something in Screen Session](https://github.com/jeanettejin/HelpfulGuides/blob/master/AWS/ec2.md#running-something-in-screen-session)
 
 
-### Prerequisites
+## Prerequisites
 1. Make sure you have a private key file, which I will refer to as `key.pem` and that 
 it is here: `.ssh/`. Assuming you are the top level, you can check by running the
 following in your teminal:
@@ -111,7 +110,7 @@ Assuming that you have already [ssh-ed into your instance](https://github.com/je
       > jeanettejin
     ```
 
-# Getting to Your User
+## Getting to Your User
 
 Now that you know how to ssh into your instance and you have created a super user, going
 forward, this is what the steps look like to get to your user.
@@ -177,7 +176,7 @@ and become [sudo user](https://github.com/jeanettejin/HelpfulGuides/blob/master/
    
 ## Running Something in Screen Session
 
-[What is a screen?](https://linoxide.com/linux-command/15-examples-screen-command-linux-terminal/)
+[What is a screen session?](https://linoxide.com/linux-command/15-examples-screen-command-linux-terminal/)
 > The screen is a terminal multiplexer. Using this, you can run any number of console-based-applications, interactive command shells, course-based applications, etc. You can use screen to keep running program after you accidentally close the terminal, or even after you log out and later resume right wherever you are.
 >
 > When screen is called, it creates a single window with a shell in it (or the specified command) and then gets out of your way so that you can use the program as you normally would. Then, at any time, you can create new (full-screen) windows with other programs in them (including more shells), kill the current window, view a list of the active windows, copy text between windows, switch between windows, etc.
