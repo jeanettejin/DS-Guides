@@ -36,8 +36,6 @@ Pyenv manages Python versions
     ```bash
     pyenv local 3.7.4
    ```
-   
-
 
 ## Ubuntu
 1. Install pyenv with

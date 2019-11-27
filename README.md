@@ -1,4 +1,4 @@
-# Helpful Guides
+# Data Science Guides
 
 Here you will find an organized compilation of how to use tools that I have learned as a data scientist.
 

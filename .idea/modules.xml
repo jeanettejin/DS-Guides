@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/HelpfulGuides.iml" filepath="$PROJECT_DIR$/.idea/HelpfulGuides.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DS-Guides/.idea/HelpfulGuides.iml" filepath="$PROJECT_DIR$/../DS-Guides/.idea/HelpfulGuides.iml" />
     </modules>
   </component>
 </project>

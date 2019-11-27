@@ -35,7 +35,6 @@ You will need your access key id and your secret key for this section
     Default region name [None]: [Enter]
     Default output format [None]: [Enter]
     ```
-
 3. See that it all worked with
 
     ```bash

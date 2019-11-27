@@ -52,7 +52,7 @@ Homebrew is a package manager for macOS/Linux
     ```bash 
    sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
    ```
-2. Homebrew for Linux
+2. Homebrew for Linux (This was the only way I got mine to work)
 
     ```bash
     git clone https://github.com/Homebrew/brew ~/.linuxbrew/Homebrew

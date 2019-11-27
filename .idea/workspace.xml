@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f3829e4-8daf-4130-9a8a-e1f8cd9ee922" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Managers/homebrew.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Managers/poetry.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Managers/pyenv.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="9f3829e4-8daf-4130-9a8a-e1f8cd9ee922" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,13 +9,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../DS-Guides" />
   </component>
   <component name="ProjectId" id="1U9kNY3MTp0oVMoL8KbXirpr9me" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -52,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574776158970</updated>
-      <workItem from="1574776162146" duration="20397000" />
+      <workItem from="1574776162146" duration="20654000" />
     </task>
     <task id="LOCAL-00001" summary="first guide">
       <created>1574778021905</created>
@@ -103,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574798178554</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add managers">
+      <created>1574863720286</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574863720286</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +130,7 @@
     <MESSAGE value="version control" />
     <MESSAGE value="separate" />
     <MESSAGE value="read me" />
-    <option name="LAST_COMMIT_MESSAGE" value="read me" />
+    <MESSAGE value="add managers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add managers" />
   </component>
 </project>
