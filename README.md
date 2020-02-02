@@ -19,4 +19,5 @@ Here you will find an organized compilation of how to use tools that I have lear
     * [Homebrew for MacOS and Ubuntu/ec2](https://github.com/jeanettejin/HelpfulGuides/blob/master/Managers/homebrew.md)
     * [Pyenv for MacOS and Ubuntu/ec2](https://github.com/jeanettejin/HelpfulGuides/blob/master/Managers/pyenv.md)
     * [Poetry for MacOS and Ubuntu/ec2](https://github.com/jeanettejin/HelpfulGuides/blob/master/Managers/poetry.md)
-    
+- [Github](https://github.com/jeanettejin/HelpfulGuides/blob/master/Github/Github_setup.md)
+- [Creating a Project]

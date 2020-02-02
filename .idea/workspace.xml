@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f3829e4-8daf-4130-9a8a-e1f8cd9ee922" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="9f3829e4-8daf-4130-9a8a-e1f8cd9ee922" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CreatingProject/creation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Github/Github_setup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,15 +20,21 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../DS-Guides" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1U9kNY3MTp0oVMoL8KbXirpr9me" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -32,18 +42,6 @@
       <recent name="$PROJECT_DIR$/AWS" />
       <recent name="$PROJECT_DIR$/AWS/Compiled" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -124,7 +122,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -139,5 +139,15 @@
     <MESSAGE value="read me" />
     <MESSAGE value="add managers" />
     <option name="LAST_COMMIT_MESSAGE" value="add managers" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="349" y="147" key="SettingsEditor" timestamp="1580664502189">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state x="349" y="147" key="SettingsEditor/0.23.1680.971@0.23.1680.971" timestamp="1580664502189" />
+    <state x="496" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1580664511892">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state x="496" y="343" key="com.intellij.ide.util.TipDialog/0.23.1680.971@0.23.1680.971" timestamp="1580664511892" />
   </component>
 </project>
